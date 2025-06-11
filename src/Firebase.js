@@ -1,28 +1,21 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  // Usando as variáveis de ambiente, como discutimos anteriormente
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
-  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
+  apiKey: "AIzaSyAU4gXCO1B_MtFuyu7Ti9UX-1RM1G1cDns",
+  authDomain: "projeto-ihc-792db.firebaseapp.com",
+  projectId: "projeto-ihc-792db",
+  storageBucket: "projeto-ihc-792db.firebasestorage.app",
+  messagingSenderId: "443565127305",
+  appId: "1:443565127305:web:30907dd1c8a63c0e13f858",
+  measurementId: "G-TRS49LVGQJ"
 };
 
-// Initialize Firebase e EXPORTE AS INSTÂNCIAS
-export const app = initializeApp(firebaseConfig);
-export const analytics = getAnalytics(app);
-
-// Se você tiver outras coisas para exportar (ex: getAuth, getFirestore), exporte-as aqui também.
-// Exemplo:
-// import { getAuth } from "firebase/auth";
-// export const auth = getAuth(app);
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
