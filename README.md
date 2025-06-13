@@ -23,7 +23,7 @@ O desenvolvimento da Plataforma Amazon Games é fundamentado em conceitos de Int
 - **Gerenciamento de Conta**: Armazenamento e consulta de dados de login dos usuários em um banco de dados simples no Firebase.
 - **Interface Responsiva**: Design adaptável para desktops, tablets e smartphones, com estética imersiva inspirada no universo gamer.
 - **Identidade Visual**: Mantém elementos da identidade da Amazon, combinados com referências visuais do universo gamer, inspiradas em plataformas como Twitch e Steam.
-- **Hospedagem Online**: Disponibilização da plataforma via GitHub Pages para acesso público e testes.
+- **Hospedagem Online**: Disponibilização da plataforma via Vercel para acesso público e testes.
 
 ## Tecnologias Utilizadas
 
@@ -33,7 +33,7 @@ O desenvolvimento da Plataforma Amazon Games é fundamentado em conceitos de Int
 - **React**: Framework JavaScript para construir uma interface componentizada, modular e eficiente.
 - **Firebase**: Plataforma do Google para autenticação de usuários (Firebase Authentication) e armazenamento de dados de login em um banco de dados em tempo real ou Firestore.
 - **FakeStore API**: API pública que fornece dados fictícios de produtos, permitindo simular um catálogo de jogos, hardware e acessórios.
-- **GitHub Pages**: Serviço de hospedagem para publicar a plataforma online, tornando-a acessível via URL pública de forma simples e gratuita.
+- **Vercel**: Serviço de hospedagem para publicar a plataforma online, tornando-a acessível via URL pública de forma simples e gratuita.
 
 ## Requisitos
 
@@ -44,7 +44,7 @@ O desenvolvimento da Plataforma Amazon Games é fundamentado em conceitos de Int
 ## Como Utilizar
 
 1. **Acesse a Plataforma**:
-   - Abra o navegador e vá para a URL hospedada no GitHub Pages ou `https://ihc-trabalho-final.vercel.app/` (se local).
+   - Abra o navegador e vá para a URL  `https://ihc-trabalho-final.vercel.app/`.
 
 2. **Registro e Login**:
    - Crie uma conta e faça login usando e-mail e senha.
